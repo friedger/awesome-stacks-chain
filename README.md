@@ -59,6 +59,7 @@
 - [Blocksurvey](https://blocksurvey.io/) - AI-driven survey platform with focus on data ownership and privacy.
 - [MultiSafe](https://github.com/Trust-Machines/multisafe) - MultiSafe is a shared crypto vault for managing Stacks (STX) and Bitcoin (BTC).
 - [Charisma](https://github.com/pointblankdev/dungeon-master) - Community-run memecoin DAO on the Stacks blockchain.
+- [Stacks TokenFactory](https://factory.matronator.cz/) - A token generator tool to create and deploy SIP-010 token smart contracts without coding
 
 ### Blockchain Name System
 
