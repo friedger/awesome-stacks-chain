@@ -44,38 +44,33 @@
 
 ### Wallets
 
-- [Asigna](https://asigna.io/) - Multisig Wallet for Bitcoin, Ordinals, BRC20s, and Stacks.
-- [Leather Wallet](https://leather.io/install-extension) - Open Source wallet for connecting to Bitcoin and Stacks web applications. Also for [desktop](https://leather.io/install-desktop).
-- [Xverse Wallet](https://www.xverse.app/) - Mobile wallet application and browser extension for managing Bitcoin, STX and stacking (partly open source).
+- [Asigna](https://asigna.io) - Multisig Wallet for Bitcoin, Ordinals, BRC20s, and Stacks.
+- [Leather Wallet](https://leather.io/) - Open Source wallet for connecting to Bitcoin and Stacks web applications. Also for mobile.
+- [Xverse Wallet](https://www.xverse.app) - Mobile wallet application and browser extension for managing Bitcoin, STX and stacking (partly open source).
 
 ### Stacks Web Applications
 
 - [Hiro Explorer](https://explorer.hiro.so/?chain=mainnet) - An application for reviewing transactions on the Stacks blockchain.
-- [STX Scan](https://stxscan.co/) - An explorer for Stacks transactions.
+- [STXER](https://stxer.xyz/) - An explorer, debugger and simulator for Stacks transactions.
 - [Send Many](https://sendstx.com) - An application to send STX and other tokens to many recipients in one transaction.
 - [Speed Spend](https://speed-spend.org) - A suite of working Clarity experiments on testnet ([source](https://github.com/friedger/speed-spend)).
-- [Sigle](https://www.sigle.io/) - Decentralized writing platform.
-- [Console](https://www.console.xyz/) - Decentralized community application.
-- [Blocksurvey](https://blocksurvey.io/) - AI-driven survey platform with focus on data ownership and privacy.
+- [Blocksurvey](https://blocksurvey.io) - AI-driven survey platform with focus on data ownership and privacy.
 - [MultiSafe](https://github.com/Trust-Machines/multisafe) - MultiSafe is a shared crypto vault for managing Stacks (STX) and Bitcoin (BTC).
 - [Charisma](https://github.com/pointblankdev/dungeon-master) - Community-run memecoin DAO on the Stacks blockchain.
 
 ### Blockchain Name System
 
-- [BNSx](https://www.dots.so/) - Manage many BNS names with one account (1:n).
 - [btc.us](https://btc.us) - An application for .btc names.
-- [BNS search](https://www.bnssearch.com/) - An application to search registered BNS names.
-- [BNS and Ordinals](https://www.bns.xyz/) - Inscribe BNS as Ordinal.
 - [Owl.link](https://owl.link) - An application to create linking page for BNS names.
-- [Ryder Handles](https://handles.ryder.id) - BNS namespaces for communities.
 
 ### DeFi
 
-- [Alex Lab](https://app.alexlab.co) - A service platform for DeFi.
-- [Arkadiko Protocol](https://github.com/arkadiko-dao/arkadiko) - Stable coin (USDA) based on self-repaying loans.
 - [Bitflow](https://www.bitflow.finance/) - Decentralized Exchange.
 - [Velar](https://www.velar.co/) - Swapping, trading, launching assets on premier Bitcoin L2s.
 - [Zest Protocol](https://www.zestprotocol.com/) - Decentralized borrowing and lending on Bitcoin and Stacks.
+- [FakFun](https://fak.fun) - Platform for exchange, launch, wrapping for memecoins build on Bitcoin.
+- [Alex Lab](https://app.alexlab.co) - A service platform for DeFi.
+- [Arkadiko Protocol](https://github.com/arkadiko-dao/arkadiko) - Stable coin (USDA) based on self-repaying loans.
 - [STX20](https://github.com/fess-v/stx20-standard) - Protocol to create and share digital artifacts on Stacks.
 - [STXTools](https://stxtools.io/) - Charts, transactions, price alerts for DeFi on Stacks.
 - [Stacks Pulse](https://github.com/pradel/stackspulse) - Real-time on-chain Stats for Stacks DeFi.
@@ -90,7 +85,7 @@
 
 ### Stacking Apps
 
-- [Lock Stacks](https://lockstacks.com) - App to stack Stacks token directly or with a pool.
+- [Stacking on Leather](https://app.leather.io/stacking) - App to stack Stacks token directly or with a pool.
 - [Fast pool](https://fastpool.org/) - Trust minimized stacking pool.
 - [PlanBetter pool](https://planbetter.com/) - Stacking pool with Bitcoin rewards.
 - [Xverse pool](https://pool.xverse.app/) - Stacking pool built into Xverse mobile app.
@@ -102,7 +97,6 @@
 ### Developer Tools
 
 - [Clarinet](https://github.com/hirosystems/clarinet) - Clarity runtime packaged as a CLI, facilitates development and testing of Clarity smart contracts.
-- [Clariform](https://github.com/njordhov/clariform) - Linter and formatter for Clarity.
 - [Clarigen](https://github.com/obylabs/clarigen) - A tool for writing TypeScript code that interacts with Clarity smart contracts.
 - [clarity.tools](https://clarity.tools) - In-browser Clarity REPL.
 - [ClarityGPT Prompt](https://claritygpt.com/) - Writing smart contracts with a chat bot.
@@ -116,6 +110,7 @@
 
 ### Libraries
 
+- [blaze](https://gist.github.com/r0zar/414e91d3e6769644981b4918141a1708) - Blaze protocol for signature base authorization
 - [uint256](https://github.com/KStasi/clarity-uint256-lib) - A library for converting values into 256-bits.
 - [clarity-bitcoin](https://github.com/friedger/clarity-bitcoin) - A library to verify Bitcoin transactions.
 
@@ -136,7 +131,7 @@
 ### Non-Fungible Tokens
 
 - [This is #1](https://www.thisisnumberone.com) - The first professional NFT built on Bitcoin and the Stacks blockchain ([contract](https://explorer.hiro.so/txid/SP3QSAJQ4EA8WXEDSRRKMZZ29NH91VZ6C5X88FGZQ.thisisnumberone-v2?chain=mainnet)).
-- [Smart Contract GPT](https://github.com/Markeljan/smart-contract-gpt) - Chat bot trained to create SIP-009 contracts.
+- [Smart Contract GPT](https://github.com/Markeljan/stxgpt) - Chat bot trained to create SIP-009 contracts.
 
 ### Fungible Tokens
 
@@ -151,19 +146,13 @@
 
 ### Client Libraries
 
-- [Stacks.js](https://github.com/hirosystems/stacks.js) - Monorepo for JavaScript libraries for interacting with the Stacks blockchain.
+- [Stacks.js](https://github.com/stx-labs/stacks.js) - Monorepo for JavaScript libraries for interacting with the Stacks blockchain.
 - [stacks.rs](https://github.com/52/stacks.rs) - A Rust toolkit to interact with the Stacks Blockchain.
 - [stacks.py](https://github.com/rohitverma007/stackspy) - Python Library to interact with the Stacks blockchain.
 
 ### CLI
 
-- [@stacks/cli](https://github.com/hirosystems/stacks.js/tree/master/packages/cli) - Command line interface for interacting with auth, storage, and transactions.
-
-### Storage
-
-- [CompassDB](https://github.com/eder-ai/compass-db) - A library for managing advanced collections in Gaia storage.
-- [lens-file-source](https://gitlab.com/MyLens/lens-file-source) - File storage abstraction through mechanisms like caching, transactions, and JSON map aggregation for Gaia.
-- [GaiaDown](https://github.com/AcidLeroy/gaiadown-ts) - Gaia storage backend for [LevelUp](https://github.com/Level/levelup).
+- [@stacks/cli](https://github.com/stx-labs/stacks.js/tree/main/packages/cli) - Command line interface for interacting with auth, storage, and transactions.
 
 ### Indexing and Querying APIs
 
@@ -192,8 +181,7 @@
 - [Why Build on Stacks](https://www.youtube.com/watch?v=WaTMCremGwE) - An overview of why web3 developers might want to build on Stacks over other blockchain protocols.
 
 ### Written Tutorials
-
-- [Built on Bitcoin: An Introduction to Full-Stack Web3 Development with Stacks](https://dev.to/stacks/built-on-bitcoin-an-introduction-to-full-stack-web3-development-with-stacks-me9) - A high-level overview of building full-stack applications with Stacks.
+- [Bitcoin Primer](https://docs.stacks.co/tutorials/bitcoin-primer/introduction) - An Intro to Building Full-Stack Dapps on Bitcoin.
 - [Understanding Stacks Post Conditions](https://dev.to/stacks/understanding-stacks-post-conditions-e65) - A guide to understanding and working with Post Conditions in Stacks.
 - [Test-Driven Stacks Development with Clarinet](https://dev.to/stacks/test-driven-stacks-development-with-clarinet-2e4i) - A tutorial showing how to utilize Clarinet for testing and TDD.
 - [Build a DEX with Stacks](https://www.pointer.gg/tutorials/build-a-dex-with-stacks/56abb3a4-05c1-4608-b096-f82189e9f759) - An extensive introduction to working with Stacks by building a full-stack decentralized exchange.
