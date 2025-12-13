@@ -2,7 +2,7 @@
 
 [![Awesome Stacks](img/awesome-stacks.png 'Awesome Stacks')](https://www.stacks.co)
 
-[Stacks](https://www.stacks.co/what-is-stacks) is a blockchain anchored by Bitcoin that enables apps, smart contracts, and digital assets. Stacks is a layer-1 blockchain that connects to Bitcoin and implements smart contracts and decentralized applications through the [Clarity language](https://clarity-lang.org/). Through the [Proof of Transfer (PoX) consensus mechanism](https://docs.stacks.co/stacks-101/proof-of-transfer), the state of the Stacks blockchain is anchored against the Bitcoin blockchain, thus providing the security and finality of Bitcoin to Stacks. Stacks brings the programmability of other blockchain technologies to Bitcoin, without the need to modify the core consensus mechanism of Bitcoin itself.
+[Stacks](https://www.stacks.co/what-is-stacks) is a Blockchain anchored by Bitcoin that enables apps, smart contracts, and digital assets. Stacks is a layer-1 Blockchain that connects to Bitcoin and implements smart contracts and decentralized applications through the [Clarity language](https://clarity-lang.org/). Through the [Proof of Transfer (PoX) consensus mechanism](https://docs.stacks.co/stacks-101/proof-of-transfer), the state of the Stacks Blockchain is anchored against the Bitcoin Blockchain, thus providing the security and finality of Bitcoin to Stacks. Stacks brings the programmability of other Blockchain technologies to Bitcoin, without the need to modify the core consensus mechanism of Bitcoin itself.
 
 ## Contents
 
@@ -28,7 +28,6 @@
 - [App Development](#app-development)
   - [Client Libraries](#client-libraries)
   - [CLI](#cli)
-  - [Storage](#storage)
   - [Indexing and Querying APIs](#indexing-and-querying-apis)
 - [Learning Resources](#learning-resources)
   - [Documentation](#documentation)
@@ -50,13 +49,13 @@
 
 ### Stacks Web Applications
 
-- [Hiro Explorer](https://explorer.hiro.so/?chain=mainnet) - An application for reviewing transactions on the Stacks blockchain.
+- [Hiro Explorer](https://explorer.hiro.so/?chain=mainnet) - An application for reviewing transactions on the Stacks Blockchain.
 - [STXER](https://stxer.xyz/) - An explorer, debugger and simulator for Stacks transactions.
 - [Send Many](https://sendstx.com) - An application to send STX and other tokens to many recipients in one transaction.
 - [Speed Spend](https://speed-spend.org) - A suite of working Clarity experiments on testnet ([source](https://github.com/friedger/speed-spend)).
 - [Blocksurvey](https://blocksurvey.io) - AI-driven survey platform with focus on data ownership and privacy.
-- [MultiSafe](https://github.com/Trust-Machines/multisafe) - MultiSafe is a shared crypto vault for managing Stacks (STX) and Bitcoin (BTC).
-- [Charisma](https://github.com/pointblankdev/dungeon-master) - Community-run memecoin DAO on the Stacks blockchain.
+- [MultiSafe](https://github.com/Trust-Machines/multisafe) - A shared crypto vault for managing Stacks (STX) and Bitcoin (BTC).
+- [Charisma](https://github.com/pointblankdev/dungeon-master) - Community-run memecoin DAO on the Stacks Blockchain.
 
 ### Blockchain Name System
 
@@ -110,7 +109,7 @@
 
 ### Libraries
 
-- [blaze](https://gist.github.com/r0zar/414e91d3e6769644981b4918141a1708) - Blaze protocol for signature base authorization
+- [blaze](https://gist.github.com/r0zar/414e91d3e6769644981b4918141a1708) - A protocol for signature-based authorization.
 - [uint256](https://github.com/KStasi/clarity-uint256-lib) - A library for converting values into 256-bits.
 - [clarity-bitcoin](https://github.com/friedger/clarity-bitcoin) - A library to verify Bitcoin transactions.
 
@@ -130,7 +129,7 @@
 
 ### Non-Fungible Tokens
 
-- [This is #1](https://www.thisisnumberone.com) - The first professional NFT built on Bitcoin and the Stacks blockchain ([contract](https://explorer.hiro.so/txid/SP3QSAJQ4EA8WXEDSRRKMZZ29NH91VZ6C5X88FGZQ.thisisnumberone-v2?chain=mainnet)).
+- [This is #1](https://www.thisisnumberone.com) - The first professional NFT built on Bitcoin and the Stacks Blockchain ([contract](https://explorer.hiro.so/txid/SP3QSAJQ4EA8WXEDSRRKMZZ29NH91VZ6C5X88FGZQ.thisisnumberone-v2?chain=mainnet)).
 - [Smart Contract GPT](https://github.com/Markeljan/stxgpt) - Chat bot trained to create SIP-009 contracts.
 
 ### Fungible Tokens
@@ -146,9 +145,9 @@
 
 ### Client Libraries
 
-- [Stacks.js](https://github.com/stx-labs/stacks.js) - Monorepo for JavaScript libraries for interacting with the Stacks blockchain.
+- [Stacks.js](https://github.com/stx-labs/stacks.js) - Monorepo for JavaScript libraries for interacting with the Stacks Blockchain.
 - [stacks.rs](https://github.com/52/stacks.rs) - A Rust toolkit to interact with the Stacks Blockchain.
-- [stacks.py](https://github.com/rohitverma007/stackspy) - Python Library to interact with the Stacks blockchain.
+- [stacks.py](https://github.com/rohitverma007/stackspy) - Python Library to interact with the Stacks Blockchain.
 
 ### CLI
 
@@ -156,7 +155,7 @@
 
 ### Indexing and Querying APIs
 
-- [Stacks API](https://www.hiro.so/stacks-api) - Hosted API to interact directly with the blockchain to query information, broadcast transactions, and scale your projects on Stacks.
+- [Stacks API](https://www.hiro.so/stacks-api) - Hosted API to interact directly with the Blockchain to query information, broadcast transactions, and scale your projects on Stacks.
 - [Quicknode](https://www.quicknode.com/chains/stx) - Hosted ednpoint to quickly and easily connect to Stacks using Quicknode.
 - [Self-Hosted Render](https://github.com/stacksfoundation/render-stacks) - One-click deploy tool to self-host a Stacks node on Render.
 - [Self-Hosted Digital Ocean](https://marketplace.digitalocean.com/apps/stacks-blockchain) - Digital Ocean droplet for running a Stacks node.
@@ -178,7 +177,7 @@
 - [How Clarity Prevents Common Smart Contract Vulnerabilities](https://www.youtube.com/watch?v=VYXhrwPsBws) - Explanation of Clarity's security princples.
 - [Proof of Transfer Whitepaper Reading with Muneeb Ali](https://www.youtube.com/watch?v=NY_eUrIcWOY&t=3s) - Overview of the Proof of Transfer (PoX) whitepaper from the author.
 - [Web3 for Bitcoin](https://www.crowdcast.io/e/web3-for-bitcoin/) - Overview of Stacks, the problem it solves, how it brings smart contract functionality to Bitcoin, and how to start building on it.
-- [Why Build on Stacks](https://www.youtube.com/watch?v=WaTMCremGwE) - An overview of why web3 developers might want to build on Stacks over other blockchain protocols.
+- [Why Build on Stacks](https://www.youtube.com/watch?v=WaTMCremGwE) - An overview of why Web3 developers might want to build on Stacks over other Blockchain protocols.
 
 ### Written Tutorials
 - [Bitcoin Primer](https://docs.stacks.co/tutorials/bitcoin-primer/introduction) - An Intro to Building Full-Stack Dapps on Bitcoin.
