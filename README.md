@@ -160,6 +160,7 @@
 - [go-stacks](https://github.com/cbadawi/go-stacks) - Golang SDK for interacting with the stacks blockchain. 
 - [x402 Stacks](https://www.x402stacks.xyz) - A protocol and SDK for building payment-gated APIs on the Stacks Blockchain.
 - [Stacks Connect](https://github.com/stx-labs/connect) - A library for connecting apps with Stacks accounts.
+- [Sign-In With Stacks](https://github.com/pradel/sign-in-with-stacks/) - A library for creating and verifying Sign-In with Stacks messages.
 
 ### CLI
 
